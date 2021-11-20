@@ -1,0 +1,19 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 100px;
+    
+}
+.image{
+    text-align: center;
+    background-image: url(images/wigbackgrd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding-top: 100px;
+    color: hotpink;
+    
+}
