@@ -4,7 +4,14 @@ body{
 .navbar{
     display: flex;
     justify-content: space-evenly;
-    margin-right: 100px;
+    color: white;
+    margin-right: 120px;
+    font-size: x-large;
+    cursor: pointer;
+    border-style: solid;
+    width: 1322px;
+    background-color:rgb(190,160,154) ;
+    
     
 }
 .image{
@@ -14,6 +21,7 @@ body{
     background-size: cover;
     height: 600px;
     padding-top: 100px;
-    color: hotpink;
+    color: rgb(190,160,154);
+    border-radius: 20px;
     
 }
