@@ -1,27 +1,122 @@
+html{
+    margin: 0px;
+    height: 100vh;
+    padding: 0px;
+    
+}
+
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
+    width: 0 auto;
+    height: auto;
+    Margin : 0 auto;
+    padding: 0;
+    background-color:rgb(233, 166, 167);
+    
 }
+.button{
+    margin-left: 1200px;
+    border-radius: 20px;
+   
+}
+.slogan{
+    margin-left: 500px;
+    font-style: italic;
+    
+}
+
 .navbar{
+    /* padding-left: 100px; */
     display: flex;
+    justify-content: space-between;
+    margin-right: 1px;
+    list-style: none;
+    background-color:rgb(224,144,145);
+    text-decoration: none;
+    
+       
+}
+li{
+    margin: 70px 0;
+    list-style: none;
+    display: inline;
     justify-content: space-evenly;
-    color: white;
-    margin-right: 120px;
-    font-size: x-large;
-    cursor: pointer;
-    border-style: solid;
-    width: 1322px;
-    background-color:rgb(190,160,154) ;
     
     
 }
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 150px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+   
 .image{
     text-align: center;
-    background-image: url(images/wigbackgrd.jpg);
+    background-image: url(images/wigs\ all.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 200px;
+    width: 1350px;
     padding-top: 100px;
-    color: rgb(190,160,154);
+    color: white;
+    /* border-radius: 20px; */
+    
+}
+.hair input[type=text]{
+    text-align: center;
+    padding: 6px;
+    border: black;
+    margin-top: 8px;
+    margin-left: 926px;
+    font-size: 17px;
+    background-color: white;
+      
+}
+.content{
+    margin-left: 150px;
+    
+}
+.clips{
+    display: flex;
+    justify-content: end;
+}
+
+.wigs{
+    background-image: url(images/wigs1.jpeg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 700px;
+    margin-left: 80px;
+    font-size:larger;
+    /* padding: 70px; */
+    border-top-left-radius: 20px;
+    border-end-start-radius: 20px;  
+    cursor: pointer;
+    
+}
+.clips{
+    background-image: url(images/clips.jpg);
+    background-repeat: no-repeat;
+    
+    height: 300px;
+    width: 800px;
+    margin-left: 580px;
+    /* margin-right:200px ; */
     border-radius: 20px;
+    border-bottom: 20px;
+    font-size: larger;
+    cursor: pointer;
+    
+
+}
+.about{
+    background-color:rgb(213, 152, 103);
+}
+.aboutus{
+    
+    
     
 }
