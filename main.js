@@ -1,25 +1,7 @@
-var main = function() {
-	//Variables {
-		var year = new Date().getFullYear();
-		$('a[href^="http://"]').attr('target', '_blank');
-		$('a[href^="https://"]').attr('target', '_blank');
-	//}
+const hambuger_menu = document.querySelector(".hamburger-menu");
+const container = document.querySelector(".container");
 
-	//NoScript effect {
-		$(".noscript").hide();
-	//}
-	
-	//Nav { 
-		//$("body").toggleClass("show");
-		//$(".show").click(function(e) {
-			//e.preventDefault();
-			//$("body").toggleClass("show");
-		//});  
-	//}
 
-	//Copyright {
-		$(".copyrights").append(year + " Whitelighting © All Rights Reserved.");
-	//}
-};
-
-$(document).ready(main);
+hambuger_menu.addEventListener("click", () => {
+    container.classList.toggle("active");
+})
