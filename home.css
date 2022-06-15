@@ -149,6 +149,12 @@ body {
 	background-size: cover;
 	background-position: center;
 }
+.nine {
+	background: url('https://preview.redd.it/yv70r9ebyc271.jpg?width=960&crop=smart&auto=webp&s=039d3070dc25c13bc03d1e711f2fcf7d331a3dd4');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
 
 
 /* POSTER*/
